@@ -1,0 +1,27 @@
+﻿<div ng-controller="ShellController as vm">
+    <div id="splash-page" data-ng-show="showSplash" class="dissolve-animation">
+        <div class="page-splash">
+            <!--<div class="page-splash-message">
+               Itolk
+            </div>-->
+            <div class="progress progress-striped active page-progress-bar">
+                <div class="bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--<header class="clearfix">
+        <div ng-include="'app/layout/topNavigation.html'"></div>
+        <a href="#menu-toggle" id="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i></a>
+    </header>-->
+
+    <section class="main-container">
+        <div ng-view id="page-content-wrapper" class="view-animate shuffle-animation">
+
+        </div>
+    </section>
+</div>
+
+<!--SideNavBar Toggle-->
+
+
